@@ -1,3 +1,9 @@
+import { Form } from "./_components/Form";
+
 export default function Home() {
-  return <main>Form Component</main>;
+  return (
+    <main>
+      <Form />
+    </main>
+  );
 }
